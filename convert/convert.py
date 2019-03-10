@@ -33,10 +33,10 @@ if __name__ == '__main__':
     in_fmt = in_fmt if in_fmt else os.path.splitext(in_path)[1][1:]
     out_fmt = out_fmt if out_fmt else os.path.splitext(out_path)[1][1:]
     if in_fmt not in formats:
-        print 'error: unsupported format "%s"' % in_fmt
+        print 'error: unsupported input format "%s"' % in_fmt
         sys.exit()
     if out_fmt not in formats:
-        print 'error: unsupported format "%s"' % out_fmt
+        print 'error: unsupported output format "%s"' % out_fmt
         sys.exit()
 
     # perform conversion

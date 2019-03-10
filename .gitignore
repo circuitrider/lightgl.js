@@ -62,3 +62,4 @@ coverage
 
 # Test Results
 test-results.xml
+**/*.pyc
